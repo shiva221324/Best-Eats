@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Best-Eats/static/css/main.bf53a182.css",
+    "main.js": "/Best-Eats/static/js/main.f26bdc5d.js",
+    "index.html": "/Best-Eats/index.html",
+    "main.bf53a182.css.map": "/Best-Eats/static/css/main.bf53a182.css.map",
+    "main.f26bdc5d.js.map": "/Best-Eats/static/js/main.f26bdc5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf53a182.css",
+    "static/js/main.f26bdc5d.js"
+  ]
+}
