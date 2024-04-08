@@ -37,7 +37,7 @@ function Navbar(props) {
           <AiOutlineMenu size={30} />
         </div>
         <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
-          Best <span className="font-bold">Eats</span>
+          Best <span className="font-bold">Coffee</span>
         </h1>
         <div className="hidden md:flex md:text-[14px] lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px] lg:ml-7">
           <p

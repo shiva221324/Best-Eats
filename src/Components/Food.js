@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { data } from "../Data.js";
+import { FaHeart } from "react-icons/fa";
+import { CiHeart } from "react-icons/ci";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Food = () => {
   const [foods, setFoods] = useState(data);
   //Filter by type
@@ -93,7 +96,7 @@ const Food = () => {
         </div>
       </div>
       {/*display foods*/}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4 items-baseline">
         {foods.map((item, index) => (
           <div
             key={index}
@@ -111,6 +114,14 @@ const Food = () => {
                   {item.price}
                 </span>
               </p>
+            </div>
+            <div className="flex justify-between">
+              <button className="relative bottom-0 w-50 border-orange-600 text-orange-600 hover:text-white hover:bg-orange-600 ml-2">
+                Add to Cart
+              </button>
+              <div className="md:mr-2 lg:mr-3 sm:mr-1">
+                <CiHeart size={40} className="text-red-600 cursor-pointer" />
+              </div>
             </div>
           </div>
         ))}
